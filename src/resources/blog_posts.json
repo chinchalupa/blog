@@ -1,0 +1,18 @@
+{
+    "blog": {
+        "name": "Still Makes Sense",
+        "description": "This is what a This is what a blog looks like, right? Anyways, this is the landing page for my blog.",
+        "posts": [{
+            "id": "my_first_pass_at_a_blog",
+            "title": "My First Pass at a Blog",
+            "timestamp": "1/11/2020",
+            "body": [{
+                "type": "text",
+                "content": "Working?"
+            }, {
+                "type": "text",
+                "content": "Boy I sure hope this works."
+            }]
+        }]
+    }
+}
