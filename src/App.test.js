@@ -1,6 +1,6 @@
 import React from 'react'
 import { render } from '@testing-library/react'
-import Blog from './blog'
+import App from './App'
 import { BrowserRouter as Router } from 'react-router-dom'
 
 const blog = {
@@ -15,7 +15,7 @@ const blog = {
 
 test('renders blog name', () => {
     const { getByText } = render(<Router>
-            <Blog blog={blog} />
+            <App blog={blog} />
     </Router>)
     const linkElement = getByText(/test-name/i)
 
@@ -24,7 +24,7 @@ test('renders blog name', () => {
 
 test('renders blog description', () => {
     const { getByText } = render(<Router>
-            <Blog blog={blog} />
+            <App blog={blog} />
     </Router>)
     const linkElement = getByText(/test-description/i)
 
@@ -33,7 +33,7 @@ test('renders blog description', () => {
 
 test('renders blog post title', () => {
     const { getByText } = render(<Router>
-            <Blog blog={blog} />
+            <App blog={blog} />
     </Router>)
     const linkElement = getByText(/test-title/i)
 
@@ -42,7 +42,7 @@ test('renders blog post title', () => {
 
 test('renders blog post timestamp', () => {
     const { getByText } = render(<Router>
-            <Blog blog={blog} />
+            <App blog={blog} />
     </Router>)
     const linkElement = getByText(/test-title/i)
 
