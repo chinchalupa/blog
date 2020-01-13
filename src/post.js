@@ -1,5 +1,5 @@
 import React from 'react'
-import PostText from './post_text'
+import PostPart from './post_part'
 import './post.css';
 
 class Post extends React.Component {
@@ -10,7 +10,7 @@ class Post extends React.Component {
                     <h1>{this.props.post.title}</h1>
                 </div>
                 <div className='post-body'>
-                    {this.props.post.body.map((blog_item, index) => <PostText {...blog_item} key={this.props.post.title + index} />)}
+                    {this.props.post.body.map((post_part, index) => <PostPart {...post_part} key={this.props.post.title + index} />)}
                 </div>
             </div>
         )

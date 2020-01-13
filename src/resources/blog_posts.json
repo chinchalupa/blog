@@ -3,27 +3,24 @@
         "name": "Still Makes Sense",
         "description": "This is what a blog looks like, right? Anyways, this is the landing page for my blog.",
         "posts": [{
-            "id": "another_post",
-            "title": "This is Another Post",
-            "timestamp": "1/13/2020",
+            "id": "augmented-reality-lifx-light-color-selector",
+            "title": "Controlling a Light in Augmented Reality",
+            "timestamp": "1/12/2020",
             "body": [{
-                "type": "text",
-                "content": "Content?"
-            }, {
-                "type": "text",
-                "content": "Boy I sure hope this works."
-            }]
-        }, {
-            "id": "my_first_pass_at_a_blog",
-            "title": "My First Pass at a Blog",
-            "timestamp": "1/11/2020",
-            "body": [{
-                "type": "text",
-                "content": "Working?"
-            }, {
-                "type": "text",
-                "content": "Boy I sure hope this works."
-            }]
+                    "type": "text",
+                    "content": "For some time, I've had a fascination with the way IoT devices can simplify our lives. Ever since I got a handful of smart lights and a smart device, I find myself shouting at the AI to manipulate the lights to my preference. With a single voice command, my house can be blindingly bright or pitch black."
+                }, {
+                    "type": "text",
+                    "content": "Manipulating lights to certain colors can be nice, but after shouting one color for each light, or yelling at the AI three times to get it to listen properly, it can get tiresome. Devices with screens alleviate this issue to an extent allowing you to more directly control the lights, but this still requires navigating through screens."
+                }, {
+                    "type": "text",
+                    "content": "This is where augmented reality can potentially fill the gap; augmented reality provides a different way to interface in your home by bringing the controls directly to you. In the video, I offer a short demonstration of a way I use augmented reality to manipulate a smart light in my home."
+                }, {
+                    "type": "youtube",
+                    "width": 560,
+                    "height": 315,
+                    "embed": "xWc9te8tP8Y"
+                }]
         }]
     }
 }
