@@ -1,9 +1,5 @@
 steps:
-  - name: 'gcr.io/cloud-builders/npm'
-    args: ['install']
-  - name: 'gcr.io/cloud-builders/npm'
-    args: ['test']
   - name: "gcr.io/cloud-builders/npm"
     args: ["run", "build", "--prod"]
   - name: gcr.io/cloud-builders/gsutil
-    args: ["-m", "rsync", "-r", "-c", "-d", "./public", "gs://blog.jeremywright.codes"]
+    args: ["-m", "rsync", "-r", "-c", "-d", "./build", "gs://blog.jeremywright.codes"]
