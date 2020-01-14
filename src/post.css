@@ -1,8 +1,14 @@
+h1 {
+    margin: 0;
+}
+
 .post-header {
+    position: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5% 20px 8px 20px;
+    width: 100%;
+    padding: 100px 20px 24px 20px;
     background-color: peru;
     font-family: 'Open Sans', sans-serif;
     color: white;
@@ -15,8 +21,9 @@
 .post-body {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
-    padding-top: 3em;
+    padding-top: 200px;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2em;
 }
@@ -31,4 +38,9 @@
 
 .post-video {
     margin: 2em;
+}
+
+.home-link-container {
+    width: 680px;
+    font-size: 0.8em;
 }
