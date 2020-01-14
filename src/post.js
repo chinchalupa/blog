@@ -7,7 +7,9 @@ class Post extends React.Component {
         return (
             <div>
                 <div className='post-header'>
-                    <h1>{this.props.post.title}</h1>
+                    <div className='post-header-text'>
+                        <h1>{this.props.post.title}</h1>
+                    </div>
                 </div>
                 <div className='post-body'>
                     {this.props.post.body.map((post_part, index) => <PostPart {...post_part} key={this.props.post.title + index} />)}
