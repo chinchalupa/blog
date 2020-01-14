@@ -1,5 +1,5 @@
 import React from 'react'
-import PostPart from './post_part'
+import PostPart from './postpart'
 import './post.css';
 
 class Post extends React.Component {
